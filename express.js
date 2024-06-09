@@ -4,7 +4,7 @@ import cookieParser from "cookie-parser";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 
-mongoose.connect("mongodb://127.0.0.1:27017", {
+mongoose.connect("db_connection_string", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   dbName: 'Home_Automation',
